@@ -68,7 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="HTML\Code.html" />
-    <Content Include="HTML\codeDisplay.html" />
     <Content Include="img\tacocat.jpg" />
     <Content Include="Index.html" />
     <Content Include="HTML\Solve.html" />
