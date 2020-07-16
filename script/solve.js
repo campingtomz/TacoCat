@@ -20,11 +20,14 @@ function palindrome() {
     let palindromeInput = checkiFWord();
     if (palindromeInput != false) {
         let reverseInput = palindromeInput.split("").reverse().join("");
-        if (palindromeInput.localeCompare(reverseInput) === 0) {
-            $('#displayOutput').append(`<h2>The word "<span style="color:green">${palindromeInput}</span>" is a Palindrome</p>`);
-            $('#palindrome-output').css('color', 'green');
-        } else {
-            $('#displayOutput').append(`<h2>The word "<span style="color:red">${palindromeInput}</span>" is not a Palindrome</p>`);
-        }
+        $('#test').html(`<h1 class="w3-center w3-animate-left">${palindromeInput}</h1>`);
+        $('#test2').html(`<h1 class="w3-center w3-animate-right">${reverseInput}</h1>`);
+        //if (palindromeInput.localeCompare(reverseInput) === 0) {
+        //    $('#displayOutput').append(`<div id="text1"> <h2>${ palindromeInput }</h2></div>`);
+        //    $('#displayOutput').append(`<h2>The word "<span style="color:green">${palindromeInput}</span>" is a Palindrome</p>`);
+        //    $('#palindrome-output').css('color', 'green');
+        //} else {
+        //    $('#displayOutput').append(`<h2>The word "<span style="color:red">${palindromeInput}</span>" is not a Palindrome</p>`);
+        //}
     }
 }

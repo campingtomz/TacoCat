@@ -78,9 +78,11 @@
     <Content Include="script\prism.js" />
     <Content Include="script\solve.js" />
     <Content Include="script\jquery-3.5.1.min.js" />
+    <Content Include="style\animation.css" />
     <Content Include="style\bootstrap.css" />
     <Content Include="style\prism.css" />
     <Content Include="style\style.css" />
+    <Content Include="style\w3.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

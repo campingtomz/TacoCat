@@ -10,12 +10,6 @@ body {
     background-image: linear-gradient(to left, #f3edc9, #cfe4e9);
 }
 
-
-#displayOutput {
-    text-align: center;
-    background-image: url("../img/tacocat2.png");
-}
-
 #solveDisplay {
     margin-top: 10px;
     border-style: groove solid;
