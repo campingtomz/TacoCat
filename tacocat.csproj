@@ -80,6 +80,7 @@
     <Content Include="script\jquery-3.5.1.min.js" />
     <Content Include="style\animation.css" />
     <Content Include="style\bootstrap.css" />
+    <Content Include="style\indexAnimation.css" />
     <Content Include="style\prism.css" />
     <Content Include="style\style.css" />
     <Content Include="style\w3.css" />
