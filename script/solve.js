@@ -21,9 +21,10 @@ function palindrome() {
     if (palindromeInput != false) {
         let reverseInput = palindromeInput.split("").reverse().join("");
         if (palindromeInput.localeCompare(reverseInput) === 0) {
-            document.getElementById('palindrome-output').innerText = `The word "${palindromeInput}" is a Palindrome`;
+            $('#displayOutput').append(`<h2>The word "<span style="color:green">${palindromeInput}</span>" is a Palindrome</p>`);
+            $('#palindrome-output').css('color', 'green');
         } else {
-            document.getElementById('palindrome-output').innerText = `The word "${palindromeInput}" is not a Palindrome`;
+            $('#displayOutput').append(`<h2>The word "<span style="color:red">${palindromeInput}</span>" is not a Palindrome</p>`);
         }
     }
 }

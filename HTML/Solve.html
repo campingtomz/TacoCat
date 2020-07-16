@@ -8,15 +8,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Taco Cat</title>
+    <title>TacoCat</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <style>
-        body {
-            background-image: linear-gradient(to left, #f3edc9, #cfe4e9);
-        }
-    </style>
+
+    <link href="../style/style.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -30,12 +27,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                         <a class="nav-link" href="../Index.html">
                             Home
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active" >
                         <a class="nav-link" href="Solve.html">Solve</a>
                     </li>
                     <li class="nav-item">
@@ -56,29 +53,31 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1 class="mt-5">Taco Cat</h1>
-                <p class="lead">Test out the Taco Cat Excercise.</p>
-                <ul class="list-unstyled">
-                    <li>Enter a word or sentence/phrase.</li>
-                    <li>The program will parse out any non-letter characters.</li>
-                    <li>Example: "....Radar..." will be parsed to "radar", then reversed.</li>
-                    <li>A man, a plan, a canal, Panama = amanaplanacanalpanama</li>
-                </ul>
+    <div class="jumbotron-fluid">
+        <div class="container">
+            <div id="solveDisplay" class="row">
+                <div class="col-sm-6 text-start">
+                    <h1 class="mt-5">Taco Cat</h1>
+                    <p class="lead">Test out the Taco Cat Exercise.</p>
+                        <p>
+                            Enter a word or sentence/phrase.
+                            The program will parse out any non-letter characters.
+                            Example: "....Radar..." will be parsed to "radar", then reversed.
+                            A man, a plan, a canal, Panama = amanaplanacanalpanama
+                        </p>
+                </div>
             </div>
         </div>
-    </div>
+        </div>
     <div class="container">
         <div class="form-group">
-            <label for="comment">Word or Phrase:</label>
+            <h4 >Word or Phrase:</h4>
             <textarea id="palindrome" class="form-control" rows="1" ></textarea>
         </div>
         <button type="button" id="button-input"class="btn btn-primary">Submit</button>
-        <div class="container">
-            <p id="palindrome-output"></p>
+        <div id="displayOutput" class="container">
         </div>
+        <img src="../img/tacocat2.png" />
     </div>
 
     <!-- Bootstrap core JavaScript -->

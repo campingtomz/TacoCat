@@ -5,6 +5,7 @@ $('#index-output').click(function () {
     $('#output-solve').hide();
     $('#output-codejs').hide();
     $('#output-solvejs').hide();
+
 });
 $('#code-output').click(function () {
     $('#output-index').hide();
@@ -12,6 +13,7 @@ $('#code-output').click(function () {
     $('#output-solve').hide();
     $('#output-codejs').hide();
     $('#output-solvejs').hide();
+    $("#output-index.active").removeClass("active");
 });
 $('#solve-output').click(function () {
     $('#output-index').hide();

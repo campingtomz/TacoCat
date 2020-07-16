@@ -69,6 +69,8 @@
   <ItemGroup>
     <Content Include="HTML\Code.html" />
     <Content Include="img\tacocat.jpg" />
+    <Content Include="img\tacocat2.png" />
+    <Content Include="img\tacocat3.png" />
     <Content Include="Index.html" />
     <Content Include="HTML\Solve.html" />
     <Content Include="script\bootstrap.js" />
@@ -78,6 +80,7 @@
     <Content Include="script\jquery-3.5.1.min.js" />
     <Content Include="style\bootstrap.css" />
     <Content Include="style\prism.css" />
+    <Content Include="style\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
